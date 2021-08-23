@@ -20,7 +20,7 @@ export default memo(function Home() {
           <h1>
             <span><i>Here</i></span>
             <span><i>I'll</i></span>
-            <span><i>show</i></span>
+            <span><i>introduce</i></span>
             <span><i>you</i></span>
             <span><i>my</i></span>
             <span><i>favorite</i></span>
