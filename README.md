@@ -1,1 +1,1 @@
-This is a personal blog web app.
+This is a personal blog.
