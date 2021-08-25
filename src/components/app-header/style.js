@@ -1,14 +1,14 @@
 import styled from 'styled-components'
 
 export const HeaderWrapper = styled.div`
-  /* box-shadow: 0 0 8px; */
+  box-shadow: black 0 0 6px;
   display: flex;
   top: 0;
   font-size: 20px;
   position: fixed;
   height: 80px;
   width: 100%;
-  background: #000000b8;
+  background: #1d1d1fb8;
   color: #f5f5f7;
   z-index: 1;
   backdrop-filter: saturate(180%) blur(20px);
