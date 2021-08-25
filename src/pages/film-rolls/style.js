@@ -4,7 +4,15 @@ export const FilmRollsWrappers = styled.div`
 
   padding: 60px 100px;
   text-align: center;
-  margin-top: 60px;
+  background: #000000;
+
+  h1 {
+    font-size: 40px;
+    color: #f5f5f7;
+  }
+  h2 {
+    color: #a1a1a6;
+  }
 
   .swiper-container {
     width: 100%;

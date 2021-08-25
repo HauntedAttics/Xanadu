@@ -6,6 +6,7 @@ export const WelcomeWrapper = styled.div`
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background: #000000;
 
   h1 {
     margin: 0;
@@ -14,11 +15,11 @@ export const WelcomeWrapper = styled.div`
 
     background-image:
       linear-gradient(75deg,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(0, 0, 0, 1) 33%,
-      rgba(0, 0, 0, 0) 66.67%,
-      rgba(0, 0, 0, 0) 100%);
-    background-size: 350% 100%;
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 33%,
+      rgba(255, 255, 255, 0) 66.67%,
+      rgba(255, 255, 255, 0) 100%);
+    background-size: 300% 100%;
     background-position-x: 100%;
     animation: 2s appear ease-in-out forwards;
     animation-delay: 1.2s;
@@ -40,6 +41,7 @@ export const WelcomeWrapper = styled.div`
     margin: 0;
     padding: 0;
     font-size: 40px;
+    color: #f5f5f7;
   }
 
   h3 {
@@ -50,10 +52,10 @@ export const WelcomeWrapper = styled.div`
 
     background-image:
       linear-gradient(75deg,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(0, 0, 0, 0) 33.33%,
-      rgba(0, 0, 0, 0) 66.67%,
-      rgba(0, 0, 0, 0) 100%);
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0) 33.33%,
+      rgba(255, 255, 255, 0) 66.67%,
+      rgba(255, 255, 255, 0) 100%);
     background-size: 20000% 100%;
     background-position-x: 100%;
 

@@ -34,7 +34,9 @@ export default memo(function FilmRolls() {
   
   return (
     <FilmRollsWrappers>
-      <h1 style={{fontSize: '40px'}}>FilmRolls</h1>
+      <Divider/>
+      <Divider/>
+      <h1>FilmRolls</h1>
       <h2>This is my personal film photography.</h2>
       <>
         <Swiper effect={'coverflow'} loop={true} grabCursor={true} centeredSlides={true} slidesPerView={'auto'} mousewheel={true} coverflowEffect={{

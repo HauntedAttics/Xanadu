@@ -28,8 +28,8 @@ export default memo(function Wallpapers() {
 
   return (
     <WallpapersWrapper>
-      <h1 style={{fontSize: '60px'}}>WallPapers</h1>
-      <h1>Here are some wallpapers randomly selected from Unsplash. Enjoy it!</h1>
+      <h1>WallPapers</h1>
+      <h2>Here are some wallpapers randomly selected from Unsplash. Enjoy it!</h2>
       <Divider/>
       <div className='grid'>
         <div className='grid-item'><Image src='https://picsum.photos/360/480?radom=25' /></div>

@@ -14,7 +14,7 @@ export default memo(function App() {
   return (
     <HashRouter>
       <AppHeader/>
-      <Suspense fallback={<div style={{minHeight: '100vh'}}><Spin size='large'/></div>}>
+      <Suspense fallback={<div style={{minHeight: '100vh', background: '#000000'}}><Spin size='large'/></div>}>
         {renderRoutes(routes)}
       </Suspense>
       <AppFooter/>

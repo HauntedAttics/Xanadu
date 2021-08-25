@@ -8,6 +8,7 @@ export const HomeWrapper = styled.div`
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
+    background: #000000;
 
     .container {
       width: 800px;
@@ -15,7 +16,7 @@ export const HomeWrapper = styled.div`
       h1 {
         margin: 0;
         letter-spacing: -2px;
-        color: black;
+        color: #f5f5f7;
       }
       span {
         padding-left: 25px;
