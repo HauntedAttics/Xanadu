@@ -15,7 +15,6 @@ export const HomeWrapper = styled.div`
 
       h1 {
         margin: 0;
-        letter-spacing: -2px;
         color: #f5f5f7;
       }
       span {
