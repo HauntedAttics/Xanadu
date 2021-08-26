@@ -10,11 +10,21 @@ import { HashRouter } from 'react-router-dom/cjs/react-router-dom.min'
 
 import { Spin } from 'antd'
 
+import 'antd/dist/antd.less'
+
 export default memo(function App() {
   return (
     <HashRouter>
       <AppHeader/>
-      <Suspense fallback={<div style={{minHeight: '100vh', background: '#000000'}}><Spin size='large'/></div>}>
+      <Suspense fallback={<div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        minHeight: '100vh',
+        background: '#000000'
+      }}>
+        <Spin size='large' tip='Loading...'/>
+      </div>}>
         {renderRoutes(routes)}
       </Suspense>
       <AppFooter/>
