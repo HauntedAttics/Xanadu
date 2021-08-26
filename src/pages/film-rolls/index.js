@@ -35,7 +35,6 @@ export default memo(function FilmRolls() {
   return (
     <FilmRollsWrappers>
       <Divider/>
-      <Divider/>
       <h1>FilmRolls</h1>
       <h2>This is my personal film photography.</h2>
       <>
