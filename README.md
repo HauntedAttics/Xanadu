@@ -1,1 +1,3 @@
-This is a personal blog.
+This is a personal website.
+
+xanadux.netlify.app

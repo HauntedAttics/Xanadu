@@ -1,8 +1,8 @@
 import React, { memo } from 'react'
 import { FilmRollsWrappers } from './style'
-import { Divider } from 'antd';
+import { Divider } from 'antd'
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react"
 
 // Import Swiper styles
 import "swiper/swiper.min.css";

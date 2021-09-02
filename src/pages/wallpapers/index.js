@@ -1,6 +1,6 @@
 import React, { memo, useEffect } from 'react'
 import { WallpapersWrapper } from './style'
-import { Image, Divider } from 'antd';
+import { Image, Divider } from 'antd'
 import Masonry from 'masonry-layout'
 
 export default memo(function Wallpapers() {
@@ -8,9 +8,9 @@ export default memo(function Wallpapers() {
   document.documentElement.scrollTop = 0
 
   useEffect(() => {
-    const imagesLoaded = require('imagesloaded');
+    const imagesLoaded = require('imagesloaded')
 
-    const grid = document.querySelector('.grid');
+    const grid = document.querySelector('.grid')
 
     const masonry = new Masonry(grid, {
       itemSelector: '.grid-item',
@@ -18,12 +18,11 @@ export default memo(function Wallpapers() {
       gutter: 12,
       fitWidth: true,
       transitionDuration: '0.8s'
-    });
+    })
 
     imagesLoaded(grid).on('progress', function () {
-      // layout Masonry after each image loads
-      masonry.layout();
-    });
+      masonry.layout()
+    })
   }, [])
 
   return (
