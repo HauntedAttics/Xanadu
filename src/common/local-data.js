@@ -12,7 +12,7 @@ export const headerLinks = [
     link: "/wallpapers"
   },
   {
-    title: "Music",
-    link: 'https://music.migu.cn/v3/playlist/203054806'
+    title: "GitHub",
+    link: 'https://github.com/HauntedAttics/Xanadu'
   }
 ]
