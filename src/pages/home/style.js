@@ -70,7 +70,7 @@ export const HomeWrapper = styled.div`
         align-items: center; */
         position: absolute;
         left: 46%;
-        transform: translateY(600%);
+        transform: translateY(500%);
         padding-left: 0px;
         animation-delay: 1.2s;
       }
