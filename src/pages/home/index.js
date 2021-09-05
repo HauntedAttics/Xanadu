@@ -5,6 +5,7 @@ import { DownOutlined } from '@ant-design/icons'
 
 export default memo(function Home() {
 
+  //Back to the top when entering this page.
   document.documentElement.scrollTop = 0
 
   const img01 = 'https://ailabs.alibabausercontent.com/images/908c5a804c204a58e06d8f7f0b7e53b7/1584430136424.jpg'
@@ -31,6 +32,7 @@ export default memo(function Home() {
         </div>
       </div>
 
+      {/* Parallax scrolling with blur effects. */}
       <Parallax
         blur={{ min: -15, max: 15 }}
         bgImage={img01}

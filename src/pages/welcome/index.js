@@ -4,6 +4,7 @@ import { Divider } from 'antd'
 
 export default memo(function Welcome() {
 
+  //Back to the top when entering this page.
   document.documentElement.scrollTop = 0
   
   return (

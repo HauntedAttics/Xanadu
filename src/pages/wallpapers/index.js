@@ -5,8 +5,10 @@ import Masonry from 'masonry-layout'
 
 export default memo(function Wallpapers() {
 
+  //Back to the top when entering this page.
   document.documentElement.scrollTop = 0
 
+  //Load Masonry style for each picture after it is loaded.
   useEffect(() => {
     const imagesLoaded = require('imagesloaded')
 

@@ -11,6 +11,7 @@ export const HeaderWrapper = styled.div`
   background: #1d1d1fb8;
   color: #f5f5f7;
   z-index: 1;
+  //Frosted glass effect.
   backdrop-filter: saturate(180%) blur(20px);
 
   .content {

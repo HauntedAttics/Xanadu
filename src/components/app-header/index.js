@@ -9,6 +9,8 @@ import {
 
 export default memo(function AppHeader() {
 
+  //The first three buttons for routing jump.
+  //The button after more than three jumps to the specified link.
   const showSelectItem = (item, index) => {
     if (index < 3) {
       return (
@@ -33,6 +35,7 @@ export default memo(function AppHeader() {
         </HeaderLeft>
         <HeaderRight>          
           <div className="select-list">
+            {/* Traverse and return the selected item. */}
               {
                 headerLinks.map((item, index) => {
                   return (

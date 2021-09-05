@@ -15,7 +15,8 @@ import 'antd/dist/antd.less'
 export default memo(function App() {
   return (
     <HashRouter>
-      <AppHeader/>
+      <AppHeader />
+      {/* The pre-loading effect before the page is loaded. */}
       <Suspense fallback={<div style={{
         display: 'flex',
         justifyContent: 'center',

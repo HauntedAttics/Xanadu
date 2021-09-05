@@ -65,9 +65,6 @@ export const HomeWrapper = styled.div`
         animation-delay: .8s;
       }
       span:nth-of-type(9) {
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
         position: absolute;
         left: 46%;
         transform: translateY(550%);

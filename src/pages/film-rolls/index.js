@@ -30,6 +30,7 @@ SwiperCore.use([EffectCoverflow, Pagination, Mousewheel]);
 
 export default memo(function FilmRolls() {
 
+  //Back to the top when entering this page.
   document.documentElement.scrollTop = 0
   
   return (
