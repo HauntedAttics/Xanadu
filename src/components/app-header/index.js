@@ -19,9 +19,11 @@ export default memo(function AppHeader() {
         </NavLink>
       )
     } else {
-      return <a href={item.link}>
-        {item.title}
-      </a>
+      return (
+        <a href={item.link}>
+          {item.title}
+        </a>
+      )
     }
   }
 
