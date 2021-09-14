@@ -24,7 +24,7 @@ export default memo(function App() {
         minHeight: '100vh',
         background: '#000000'
       }}>
-        <Spin size='large' tip='Loading...'/>
+        <Spin size='large'/>
       </div>}>
         {renderRoutes(routes)}
       </Suspense>
