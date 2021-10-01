@@ -1,3 +1,3 @@
-This is a personal website.
+🤞 Xanadu is a personal website built by React.
 
-xanadux.netlify.app
+🔗 xanadux.netlify.app
