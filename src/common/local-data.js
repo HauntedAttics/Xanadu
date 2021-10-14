@@ -4,8 +4,8 @@ export const headerLinks = [
     link: "/home"
   },
   {
-    title: "FilmRolls",
-    link: "/film-rolls"
+    title: "Dashboard",
+    link: "/dashboard"
   },
   {
     title: "Wallpapers",
