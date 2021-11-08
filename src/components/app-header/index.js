@@ -32,7 +32,7 @@ export default memo(function AppHeader() {
       <div className="content wrap-v1">
         <HeaderLeft>
           <a href='#/' className="logo">
-            <h1 style={{ color: 'white' }}>Xanadu</h1>
+            <h1 style={{ color: 'white' }}>仙乐都</h1>
           </a>
         </HeaderLeft>
         <HeaderRight>          

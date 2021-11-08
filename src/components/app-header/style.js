@@ -23,13 +23,12 @@ export const HeaderWrapper = styled.div`
 
 export const HeaderLeft = styled.div`
   display: flex;
-    .logo {
+  .logo {
     font-size: x-large;
   }
   .logo:hover {
     text-decoration: none;
   }
-
 `
 
 export const HeaderRight = styled.div`
@@ -44,7 +43,7 @@ export const HeaderRight = styled.div`
       position: relative;
       a {
         display: block;
-        padding: 0 40px;
+        padding: 0 60px;
         color: #ccc;
       }
       &:hover a {

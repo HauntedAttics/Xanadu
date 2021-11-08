@@ -29,8 +29,8 @@ export default memo(function Wallpapers() {
 
   return (
     <WallpapersWrapper>
-      <h1>WallPapers</h1>
-      <h2>Here are some wallpapers randomly selected from Unsplash. Enjoy it!</h2>
+      <h1>壁纸</h1>
+      <h2>这是一些从Unsplash随机获取的壁纸。</h2>
       <Divider/>
       <div className='grid'>
         <div className='grid-item'><Image src='https://picsum.photos/360/480?radom=25' /></div>
