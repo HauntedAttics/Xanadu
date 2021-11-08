@@ -11,7 +11,7 @@ export default memo(function Home() {
   const img01 = 'https://pic3.zhimg.com/v2-0262305581f89248dc60fdf85e1975a2_r.jpg'
   const img02 = 'https://gss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/4bed2e738bd4b31cc47a669f8fd6277f9e2ff854.jpg'
   const img03 = 'https://pic2.zhimg.com/v2-be93611ff051c7a9a687c121037f48cd_r.jpg'
-  const img04 = 'http://images.wenming.cn/web_wenming/syjj/dfcz/ah/201608/W020160818295011522612.jpg'
+  const img04 = 'http://yesofcorsa.com/wp-content/uploads/2017/02/Radiohead-Wallpaper-For-Mobile.jpg'
   
   return (
     <HomeWrapper>
