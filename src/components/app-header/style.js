@@ -24,7 +24,8 @@ export const HeaderWrapper = styled.div`
 export const HeaderLeft = styled.div`
   display: flex;
   .logo {
-    font-size: x-large;
+    font-size: 20px;
+    line-height: 80px;
   }
   .logo:hover {
     text-decoration: none;
@@ -43,7 +44,7 @@ export const HeaderRight = styled.div`
       position: relative;
       a {
         display: block;
-        padding: 0 60px;
+        padding: 0 50px;
         color: #ccc;
       }
       &:hover a {

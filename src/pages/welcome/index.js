@@ -10,10 +10,10 @@ export default memo(function Welcome() {
   return (
     <WelcomeWrapper>
       <div>
-        <h2>欢迎来到</h2>
-        <h1>仙 乐 都</h1>
+        <h2>Welcome to</h2>
+        <h1>XANADU</h1>
         <Divider />
-        <h3>轻敲导航栏开始探索。</h3>
+        <h3>Tap on the navigation bar to explore.</h3>
       </div>
     </WelcomeWrapper>
   )

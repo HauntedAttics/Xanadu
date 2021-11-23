@@ -1,14 +1,14 @@
 export const headerLinks = [
   {
-    title: "首页",
+    title: "Home",
     link: "/home"
   },
   {
-    title: "仪表盘",
+    title: "Dashboard",
     link: "/dashboard"
   },
   {
-    title: "壁纸",
+    title: "Wallpapers",
     link: "/wallpapers"
   },
   {
