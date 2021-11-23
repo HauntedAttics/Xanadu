@@ -8,7 +8,7 @@ export default memo(function Home() {
   //Back to the top when entering this page.
   document.documentElement.scrollTop = 0
 
-  const img01 = 'https://www.unilad.co.uk/wp-content/uploads/2018/01/beatles-GettyImages-73906777.jpg'
+  const img01 = 'https://i.scdn.co/image/934c57df9fbdbbaa5e93b55994a4cb9571fd2085'
   const img02 = 'https://www.neptunepinkfloyd.co.uk/wp-content/uploads/2012/01/443250-19.jpg'
   const img03 = 'https://activeman.gr/wp-content/uploads/2019/05/Led_Zeppelin_01.jpg'
   const img04 = 'https://yesofcorsa.com/wp-content/uploads/2017/02/Radiohead-Wallpaper-For-Mobile.jpg'
