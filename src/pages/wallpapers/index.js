@@ -33,7 +33,7 @@ export default memo(function Wallpapers() {
       <h2>Here are some wallpapers randomly obtained from Unsplash. Enjoy!</h2>
       <Divider/>
       <div className='grid'>
-        <div className='grid-item'><Image src='https://picsum.photos/360/480?radom=25' /></div>
+        <div className='grid-item'><Image src='https://https://source.unsplash.com/random/360x480' /></div>
         <div className='grid-item'><Image src='https://picsum.photos/360/440?radom=26' /></div>
         <div className='grid-item'><Image src='https://picsum.photos/360/500?radom=27' /></div>
         <div className='grid-item'><Image src='https://picsum.photos/360/480?radom=28' /></div>
