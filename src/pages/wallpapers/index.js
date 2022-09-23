@@ -49,9 +49,9 @@ export default memo(function Wallpapers() {
         <div className='grid-item'><Image src='https://picsum.photos/360/510?radom=3' /></div>
         <div className='grid-item'><Image src='https://picsum.photos/360/450?radom=4' /></div>
         <div className='grid-item'><Image src='https://picsum.photos/360/520?radom=5' /></div>
-        <div className='grid-item'><Image src='https://picsum.photos/360/480?radom=6' /></div>
+        <div className='grid-item'><Image src='https://picsum.photos/360/500?radom=6' /></div>
         <div className='grid-item'><Image src='https://picsum.photos/360/520?radom=7' /></div>
-        <div className='grid-item'><Image src='https://picsum.photos/360/500?radom=8' /></div>
+        <div className='grid-item'><Image src='https://picsum.photos/360/540?radom=8' /></div>
         <div className='grid-item'><Image src='https://picsum.photos/360/460?radom=9' /></div>
         <div className='grid-item'><Image src='https://picsum.photos/360/550?radom=10' /></div>
         <div className='grid-item'><Image src='https://picsum.photos/360/480?radom=11' /></div>
