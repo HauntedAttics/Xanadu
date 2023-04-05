@@ -8,7 +8,7 @@ export default memo(function AppFooter() {
       <div className='wrap-v2'>
         <span>Email: 925930071@qq.com</span>
         <Divider />
-        <span>Copyright © 2021 Xanadu Inc. All rights reserved.</span>
+        <span>Copyright © 2023 Xanadu Inc. All rights reserved.</span>
       </div>
     </FooterWrapper>
   )

@@ -306,7 +306,7 @@ export default memo(function ECharts() {
     for (let i = 0; i < 20; i++) {
       let date = new Date((dottedBase += 3600 * 24 * 1000));
       category.push(
-        [date.getFullYear(), date.getMonth() + 1, date.getDate()].join('-')
+        [date.getFullYear(), date.getMonth(), date.getDate()].join('-')
       );
       let b = Math.random() * 200;
       let d = Math.random() * 200;
@@ -402,7 +402,7 @@ export default memo(function ECharts() {
     const option4 = {
       backgroundColor: ' ',
       title: {
-        text: 'Customized Pie',
+        text: 'Digital Technology',
         left: 'center',
         top: 20,
         textStyle: {
@@ -427,11 +427,11 @@ export default memo(function ECharts() {
           radius: '55%',
           center: ['50%', '50%'],
           data: [
-            { value: 335, name: 'Direct' },
-            { value: 310, name: 'Email' },
-            { value: 274, name: 'Union Ads' },
-            { value: 235, name: 'Video Ads' },
-            { value: 400, name: 'Search Engine' }
+            { value: 335, name: 'AI' },
+            { value: 310, name: 'IoT' },
+            { value: 274, name: 'Big Data' },
+            { value: 235, name: '5G Technology' },
+            { value: 400, name: 'Blockchain' }
           ].sort(function (a, b) {
             return a.value - b.value;
           }),
