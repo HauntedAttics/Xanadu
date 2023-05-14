@@ -8,7 +8,7 @@ export default memo(function Home() {
   //Back to the top when entering this page.
   document.documentElement.scrollTop = 0
 
-  const img01 = 'https://www.gannett-cdn.com/presto/2018/08/31/PGRE/c44072c7-6d55-4c49-bc1a-f6aa3cf2c16a-gre-57fk53nirowyawasfu4_original.jpg'
+  const img01 = 'https://ts1.cn.mm.bing.net/th/id/R-C.859f4afe9f60c0ac5845214c38b5d121?rik=dB7qQ%2fik1e9%2bOA&riu=http%3a%2f%2fwww.macmillandictionaryblog.com%2fwp-content%2fuploads%2f2013%2f03%2fbeatles.jpg&ehk=uQBzcGKp0oEYyaZ9gelfEzodpu8GRedu68EsTwiJ8fs%3d&risl=&pid=ImgRaw&r=0'
   const img02 = 'https://www.neptunepinkfloyd.co.uk/wp-content/uploads/2012/01/443250-19.jpg'
   const img03 = 'https://sun9-88.userapi.com/impg/g9CEOlILsenUIADWcrxMWz2b6mGpbkj_W0j5TQ/PyhFj8MmUBo.jpg?size=1779x2160&quality=96&sign=73a7d7ec225eba3005097dc7d4127413&c_uniq_tag=3BlKcYvrlv8_A5WBDQF110ZWIjwlK4WT_9Q3Fc4dHJA&type=album'
   const img04 = 'https://yesofcorsa.com/wp-content/uploads/2017/02/Radiohead-Wallpaper-For-Mobile.jpg'
