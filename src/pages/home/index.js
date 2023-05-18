@@ -9,7 +9,7 @@ export default memo(function Home() {
   document.documentElement.scrollTop = 0
 
   const img01 = 'https://damion.club/uploads/posts/2022-02/1644528626_43-damion-club-p-bitlz-znamenitosti-43.jpg'
-  const img02 = 'https://www.neptunepinkfloyd.co.uk/wp-content/uploads/2012/01/443250-19.jpg'
+  const img02 = 'https://s.inyourpocket.com/gallery/207080.jpg'
   const img03 = 'https://sun9-88.userapi.com/impg/g9CEOlILsenUIADWcrxMWz2b6mGpbkj_W0j5TQ/PyhFj8MmUBo.jpg?size=1779x2160&quality=96&sign=73a7d7ec225eba3005097dc7d4127413&c_uniq_tag=3BlKcYvrlv8_A5WBDQF110ZWIjwlK4WT_9Q3Fc4dHJA&type=album'
   const img04 = 'https://yesofcorsa.com/wp-content/uploads/2017/02/Radiohead-Wallpaper-For-Mobile.jpg'
   
@@ -57,9 +57,9 @@ export default memo(function Home() {
         align-items={'center'}
       >
         <div className='text'>
-          <h1>Pink Floyd</h1>
+          <h1>King Crimson</h1>
           <h2>
-            Pink Floyd were founded in 1964 by Syd Barrett (guitar, lead vocals), Nick Mason (drums), Roger Waters (bass guitar, vocals), Richard Wright (keyboards, vocals) and Bob Klose (guitars); Klose quit in 1965. Under Barrett's leadership, they released two charting singles and the successful debut album The Piper at the Gates of Dawn (1967). Guitarist and vocalist David Gilmour joined in December 1967; Barrett left in April 1968 due to deteriorating mental health. Waters became the primary lyricist and thematic leader, devising the concepts behind the band's peak success with the albums The Dark Side of the Moon (1973), Wish You Were Here (1975), Animals (1977) and The Wall (1979). The musical film based on The Wall, Pink Floyd – The Wall (1982), won two BAFTA Awards.
+            King Crimson are a progressive rock band formed in 1968 in London, England. The band draws inspiration from a wide variety of music, incorporating elements of classical, jazz, folk, heavy metal, gamelan, industrial, electronic, experimental music and new wave. They exerted a strong influence on the early 1970s progressive rock movement, including on contemporaries such as Yes and Genesis, and continue to inspire subsequent generations of artists across multiple genres. The band earned a large cult following.
           </h2>
         </div>
         <div className='wall' />
